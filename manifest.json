@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "iFrame Fullscreen Fit",
+  "version": "1.0",
+  "description": "Fit iframe videos to the browser size in fullscreen mode.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["*://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Enable Fullscreen"
+  },
+  "icons": {
+    "128": "logo.png"
+  }
+}
