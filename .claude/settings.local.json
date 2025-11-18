@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(code-graph)",
+      "Bash(code-graph-skills init:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

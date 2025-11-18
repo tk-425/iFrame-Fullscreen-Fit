@@ -1,0 +1,9 @@
+[languages]
+ts = true
+py = true
+go = false
+swift = false
+
+[graph]
+auto_rebuild = false
+persist_events = true
